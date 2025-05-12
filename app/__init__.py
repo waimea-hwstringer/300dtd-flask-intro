@@ -10,3 +10,7 @@ def home():
 @app.get("/test/")
 def test():
     return render_template("pages/test.jinja")
+
+@app.get("/about/")
+def about():
+    return render_template("pages/about.jinja")

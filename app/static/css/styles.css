@@ -1,3 +1,20 @@
-body {
-    background-color: bisque;
+nav {
+    background-color: var(--pico-muted-color);
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pico-primary);
+    min-height: 10rem;
+
+}
+
+#hero h1 {
+    margin: 0;
+}
+
+#mainText {
+    padding-top: 2rem;
 }
