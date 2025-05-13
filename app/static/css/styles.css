@@ -1,5 +1,6 @@
 nav {
-    background-color: var(--pico-muted-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #hero {
@@ -17,4 +18,24 @@ nav {
 
 #mainText {
     padding-top: 2rem;
+}
+
+#rand-num {
+    font-size: 10rem;
+    max-width: fit-content;
+}
+
+#numnum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pico-background-color);
+    margin: 0;
 }
