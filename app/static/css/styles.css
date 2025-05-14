@@ -1,6 +1,13 @@
 nav {
     padding-left: 1rem;
     padding-right: 1rem;
+    font-family: "Quicksand";
+    font-size: 1.8rem;
+    background-color: var(--pico-text-selection);
+}
+
+nav a {
+    font-size: 1.2rem;
 }
 
 #hero {
@@ -18,14 +25,18 @@ nav {
 
 #mainText {
     padding-top: 2rem;
+    padding-left: 1rem;
 }
 
 #rand-num {
     font-size: 10rem;
-    max-width: fit-content;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#numnum {
+#numSection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +47,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--pico-background-color);
+    background-color: var(--pico-primary-inverse);
     margin: 0;
 }
